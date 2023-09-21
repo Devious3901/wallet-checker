@@ -13,7 +13,7 @@
    npm install
     ```
 6) Enter addresses in folder in txt files `addresses`
-7) in 'wallet-checker' dir ```sudo npm start ```
+7) in 'wallet-checker' dir ```sudo npm start```
 8) In console open localhost website
 
 * ZkSync
