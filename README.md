@@ -1,46 +1,18 @@
-# Инструмент работы с кошельками
+# Setup
 
-## Установка
-`npm install` 
+## Step by step
+1) Install git https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04
+2) git clone https://github.com/munris-vlad/wallet-checker
+3) Install nodejs https://linuxconfig.org/how-to-install-node-js-on-linux
+4) cd wallet-checker
+5) npm install
+6) Enter addresses in folder in txt files `addresses`
+7) in 'wallet-checker' dir sudo npm start
+8) In console open localhost website
 
-Заполняем файлы адресами в папке `addresses`
-
-Для запуска `npm start`
-
-## Что умеет
-
-### Веб сервер
-
-Запускает локальный сайт, с помощью которого можно смотреть всю описанную ниже статистику в браузере. Есть сортировка колонок, подсвечивание низких балансов и т.д.  
-
-### Проверка активности
-
-### Чекер сетей:
 * ZkSync
 * Starknet
 * Zora
 * Aptos
 * Linea
 
-Покажет в консоли и сохранит в csv файл следующую инфу:
-* Баланс в эфире/стейблах
-* Количество транзакций
-* Уникальные дни/недели/месяцы
-* Первая и последняя транзакции
-* Количество потраченного газа
-* Специфичную для чейна инфу
-
-### Получение балансов
-
-Покажет баланс нативного токена/usdt/usdc/dai в выбранной сети. Доступны: eth, arbitrum, optimism, polygon, bsc, avalanche.
-
-### EVM Checker
-
-* Количество транзакций
-* Уникальные дни/недели/месяцы
-* Первая и последняя транзакции
-* Количество потраченного газа
-
-Этот скрипт рекомендую именно клонировать, а не качать zip - так как это будет универсальный скрипт для работы с кошельками, и со временем туда переедет функционал проверки балансов по EVM сетям.
-
-Для работы с EVM Checker нужно переименовать .env.example в .env и добавить Moralis API Key
