@@ -3,7 +3,7 @@
 ## Step by step
 1) Install git https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04
 2) ```bash
-   git clone https://github.com/VXEAD/wallet-checker
+   git clone https://github.com/munris-vlad/wallet-checker
    ```
 3) Install nodejs https://linuxconfig.org/how-to-install-node-js-on-linux
 4) ```bash
